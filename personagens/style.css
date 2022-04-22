@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/background-grego.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 1100px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.heroes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 21rem;
+    background-color: #ffffffcc;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 20px;
+    align-self: normal;
+    text-align: center;
+    padding: 10px;
+    height: 700px;
+    box-shadow: 5px 10px 10px #000;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 0 ;
+    color: #e3970a;
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 1.0rem;
+    color: #b88320;
+}
+
+.card .btn {
+    background-color: #e19f25d9;
+    color: white;
+    display: block;
+    align-self: flex-start;
+    text-align: center;
+    padding: 10px 60px;
+    margin: 14px 70px;
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #654a1f;
+    transition: 1.5s;
+}
+
+.hero-image {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 760px) {
+    .heroes{
+        display: flex;
+        flex-direction: column;
+    }
+}
