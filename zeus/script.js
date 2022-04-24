@@ -71,7 +71,6 @@ function faseQuatro(){
             break;
         }else if (parseInt(contaDivisao) === 5){
             alert("PARABÉNS!! Você Venceu!!");
-            window.location.assign("vencedor.html");
             break;
         }else if(parseInt(contaDivisao) != 5){
             if(i < 1){

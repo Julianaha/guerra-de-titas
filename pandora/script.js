@@ -109,7 +109,6 @@ function pandoraFaseCinco() {
             break;
         }else if( quintaCondicao.toLowerCase() == "b"){
             alert("PARABÉNS!! Você Venceu!!");
-            window.location.assign("vencedor.html");
             break;
         } else if (quintaCondicao.toLowerCase() == "c" || quintaCondicao.toLowerCase() == "a"){
             if(i < 1){

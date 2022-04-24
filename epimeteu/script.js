@@ -118,12 +118,11 @@ function faseCinco(){
 
     for (var i = 0; i < cont; i++) {
         
-        var solucaoCinco = prompt(`Às vezes sou mensageira e símbolo da paz, mas podes encontrar-me nos parques e jardins. Que animal eu sou? `, `insira aqui sua resposta` )
+        var solucaoCinco = prompt(`Às vezes sou mensageira e símbolo da paz, mas podes encontrar-me nos parques e jardins. Que animal eu sou? `)
         if(solucaoCinco == null){
             break;
         }else if (solucaoCinco.toLowerCase() === resultado4){
             alert("PARABÉNS!! Você Venceu!!");
-            window.location.assign("vencedor.html");
             break
         }else if(solucaoCinco.toLowerCase() != resultado4){
             if(i < 1){

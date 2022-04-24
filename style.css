@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,34 +10,43 @@ body {
     background-image: url("./image/background-grego.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'GFS Neohellenic', sans-serif;
 }
 
 .container{
     width: 90%;
-    min-height: 80vh;
+    min-height: 100vh;
     margin: 0 auto;
+}
+
+.box {
+    margin-top: 3rem;
     background-color: #5c42207d;
 }
 
 .content-title{
     text-align: center;
     text-transform: uppercase;
-    color: #e3970a;
-    padding: 1.8em;
+    color: #fbe0af;
+    padding-top: 0.5em;
     margin: 1.6em;
 }
 
+header h1 {
+    text-align: center;
+    padding: 0.8em;
+}
+
 .content-text{
-    padding: 1.8rem ;
-    margin: 1.6rem;
+    margin: 1em;
     font-size: 1.6rem;
-    color: #daa034d9;
+    color: #fbe0af;
 }
 
 .content-btn{
     text-align: center;
     padding: 20px;
-    max-width: 50%;
+    max-width: 33%;
     margin: 0 auto;
 }
 
@@ -50,7 +61,55 @@ a{
     background-color: #daa034d9;
     color: #fff;
     font-size: 1.0rem;
-    border: 1px solid #daa034d9;
+    border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #000000cc;
+    transition: 1.5s;
+}
+
+.midias {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    padding: 1.3em;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+@media screen and (max-width: 760px) {
+    body{
+        background-image: url("./image/background-grego.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box{
+        margin-top: 1em;
+    }
+
+    .midias {
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .content-title{
+        text-align: center;
+        text-transform: uppercase;
+        color: #fbe0afd9;
+        margin: 1.6em;
+    }
+
+    .content-btn{
+        max-width: 60%;  
+    }
+
 }

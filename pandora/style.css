@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,11 +7,12 @@
 }
 
 html {
-    min-height: 1000px;
+    min-height: 100vh;
     background-image: url("../image/background-grego.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    font-family: 'GFS Neohellenic', sans-serif;
 }
 
 .container{
@@ -28,7 +31,7 @@ html {
 
 .content-title{
     text-transform: uppercase;
-    color: #e3970a;
+    color: #000;
     font-size: 1.8rem;
 }
 
@@ -36,7 +39,7 @@ html {
     padding: 1rem ;
     margin: 1rem;
     font-size: 1.6rem;
-    color: #daa034d9;
+    color: #000;
 }
 
 .function-btn{
@@ -48,7 +51,7 @@ html {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 button {
@@ -56,7 +59,7 @@ button {
     width: 15%;
     cursor: pointer;
     background-color: #daa034d9;
-    color: #fff;
+    color: #000;
     border: none;
     border-radius: 5px;
 }
@@ -67,18 +70,27 @@ button:hover{
 }
 
 img{
-    margin: 1rem;
+    margin: 1rem auto;
+    display: block;
+    width: 70%;
 }
 
 @media (max-width: 700px){
+    html {
+        background-image: url("../image/background-grego.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
     img{
         display: none;
     }
 
     .content {
-        padding: 2em;
-        margin: 2em;
         text-align: center;
+        padding-top: 1.9em;
+        margin: 0;
     }
 
     button {
@@ -87,7 +99,6 @@ img{
         border: none;
         border-radius: 12px;
         background: #daa034d9;
-        color: white;
         cursor: pointer;
         font-size: 1.2em;
     }

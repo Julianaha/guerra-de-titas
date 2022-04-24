@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +15,7 @@ body {
     background-image: url("../image/background-grego.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'GFS Neohellenic', sans-serif;
 }
 
 a{
@@ -24,6 +27,20 @@ a{
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
+}
+
+.midias {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    padding: 1.3em;
+}
+
+div ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 .heroes {
@@ -51,13 +68,13 @@ a{
     font-size: 1.3rem;
     text-transform: uppercase;
     margin: 10px 0 ;
-    color: #e3970a;
+    color: #000;
 }
 
 .card p {
     margin-bottom: 10px;
     font-size: 1.0rem;
-    color: #b88320;
+    color: #000;
 }
 
 .card .btn {
@@ -73,7 +90,7 @@ a{
 }
 
 .btn:hover{
-    background-color: #654a1f;
+    background-color: #000000cc;
     transition: 1.5s;
 }
 
@@ -85,8 +102,35 @@ a{
 }
 
 @media screen and (max-width: 760px) {
+    .midias {
+        padding: 1.5em;
+    }
+
     .heroes{
         display: flex;
         flex-direction: column;
     }
+
+    body{
+        background-image: url("../image/background-grego.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 21rem;
+        background-color: #ffffffcc;
+        border: none;
+        border-radius: 5px;
+        margin: 10px 20px;
+        align-self: normal;
+        text-align: center;
+        padding: 10px;
+        height: 700px;
+        box-shadow: 5px 10px 10px #000;
+    }
+
 }
