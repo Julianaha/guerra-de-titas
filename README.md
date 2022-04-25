@@ -1,4 +1,4 @@
-<h2>Projeto fim de módulo - Resilia 2022</h2>
+<h2>Projeto fim de móduloI - Resilia 2022</h2>
  
 Neste projeto fomos orientados a criar um jogo com todo o conhecimento adquirido durante essas quatro semanas de curso. Por exemplo, html semântico, boas práticas de css, responsividade, lógica de repetição com javascript. E junto do meu grupo definimos a temática e personagens utilizados na criação do jogo.
  
@@ -43,7 +43,7 @@ No final de cada card tem o botão jogar e o usuário tem a opção de escolher 
   <li>Qual a característica da deusa Gaia?</li>
   <li>Qual a característica da deusa Afrodite?</li>
   <li>Qual a característica da deusa Atena?</li>
-  <li><Qual a característica da deusa Hera?</li>
+  <li>Qual a característica da deusa Hera?</li>
  </ol>
    
 <img width="500" alt="Captura de Tela 2022-04-24 às 21 27 26" src="https://user-images.githubusercontent.com/65184920/165003205-c760c2c4-6228-4374-a55a-8428b648db4d.png">
