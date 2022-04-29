@@ -65,5 +65,29 @@ No final de cada card tem o botão jogar e o usuário tem a opção de escolher 
 
 <p>Independente do personagem escolhido, o jogador vence o jogo se tiver respondido todas as perguntas corretamente. E assim tem a possibilidade de escolher outro jogo para estar interagindo com os diferentes personagens e sendo vencedor de todas as fases. 
 O jogador tem a possibilidade de duas tentativas e por consequência de respostas erradas perde o jogo. Caso não consiga, pode reiniciar e começar novamente.<p>
+ 
+ <h2 id="linguagens">Softwares e ferramentas utilizadas nesse projeto 📚</h2>
+
+  - [x] HTML5
+  - [x] CSS3
+  - [x] JavaScript
+  - [x] Git
+
+<h2 id="habilidades">Habilidades adquiridas 📝</h2>
+
+  - Indentação do código
+  - Tags semânticas (HTML)
+  - Classes (HTML)
+  - Seletores e Combinadores (CSS)
+  - Pseudo-classes (CSS)
+  - Flexbox (CSS)
+  - Funções (JS)
+  - Prompt e Alert (JS)
+  - Condicionais (if, else if, else e while) (JS)
+  - Estruturas de repetição (for) (JS)
+
+<div id="autor" align="center">
+
+  Criado e desenvolvido por [Juliana Souza](https://www.linkedin.com/in/julianaha/).
 
 
